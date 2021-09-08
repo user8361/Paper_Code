@@ -23,8 +23,22 @@ with 86,017 training videos, 11,522 validation videos, and
 10,960 test videos. total 108499 videos
 
 Something-Something V2
-includes 174 categoories
+includes 174 categoories with 168913 training videos , 24777 validation videos and 
+27157 testing videos.
 contains ~169k videos clips in training set and ~25k videos clip in validation set
+
+Jester [14, 17, 45, 28, 18] is a third-person view gesture
+dataset, which has a potential usage for human computer
+interaction. It has 27 categories with 118,562 training
+videos, 14,787 validation videos and 14,743 testing videos.
+total 220847 videos
+
+EgoGesture [17, 43, 33, 32, 1, 34] is a large-scale dataset
+for egocentric hand gesture recognition recorded by a headmounted camera, which is designed for VR/AR use cases.
+It involves 83 classes of gestures with 14,416 training samples, 4,768 validation samples and 4,977 testing samples.
+
+
+
 
 All of them have been split into
 individual frames at the same rate, and the extracted frames
