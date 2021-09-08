@@ -1,0 +1,32 @@
+Kinetics 
+( Kinetics-400 contains ∼300k
+  video clips with 400 human action categories. )
+
+contains 400 categories and provides download
+URL links for ∼240k training videos and ∼20k validation
+videos. In our experiments, we successfully collect 223,127
+training videos and 18,153 validation videos, because a
+small fraction of the URLs (around 10%) is no longer valid.
+For the Kinetics dataset, the methods are learned on the
+training set and evaluated on the validation set. 
+
+HMDB
+contains 51 classes and 6,766 videos,
+while UCF includes
+101 categories with 13,320 videos. For these two datasets,
+we follow TSN [44] to utilize three different training/testing
+splits for evaluation, and the average results are reported.
+
+Something-Something V1 
+includes 174 categories 
+with 86,017 training videos, 11,522 validation videos, and
+10,960 test videos. total 108499 videos
+
+Something-Something V2
+includes 174 categoories
+contains ~169k videos clips in training set and ~25k videos clip in validation set
+
+All of them have been split into
+individual frames at the same rate, and the extracted frames
+are also publicly available. The methods are learned on the
+training set and measured on the validation set and test set.
